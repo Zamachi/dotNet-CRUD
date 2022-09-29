@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "KYP9ynl5jNklibzPdz6s/hU/1/qqmhW++tmH4604JRu0F0hnun8//ZHvWAdRupVTnbPN5oWMrcFSJ1mEkHEWCg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Zamachi\\Projects\\NSI6\\NSI6.Repository\\NSI6.Repository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Zamachi\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\Zamachi\\.nuget\\packages\\dapper.simplecrud\\2.3.0\\dapper.simplecrud.2.3.0.nupkg.sha512",
+    "C:\\Users\\Zamachi\\.nuget\\packages\\microsoft.csharp\\4.4.0\\microsoft.csharp.4.4.0.nupkg.sha512",
+    "C:\\Users\\Zamachi\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Zamachi\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Zamachi\\.nuget\\packages\\npgsql\\6.0.3\\npgsql.6.0.3.nupkg.sha512",
+    "C:\\Users\\Zamachi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

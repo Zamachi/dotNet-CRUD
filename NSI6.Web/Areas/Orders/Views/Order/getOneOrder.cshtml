@@ -1,0 +1,27 @@
+﻿@model OrderModel
+
+<h1>Order: @Model.Id</h1>
+
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Game ID:</th>
+      <th scope="col">Game name:</th>
+      <th scope="col">Quantity:</th>
+      <th scope="col">Price:</th>
+      <th scope="col">Total:</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach(var order in Model.Items)
+    {
+        <tr>
+            <td>@order.Games.Id</td>
+            <td>@order.name</td>
+            <td>@order.Games.quantity</td>
+            <td>@order.Games.price</td>
+            <td>@(order.Games.price * order.Games.quantity)</td>
+        </tr>
+    }
+  </tbody>
+</table>

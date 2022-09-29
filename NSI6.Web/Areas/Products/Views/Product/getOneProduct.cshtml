@@ -1,0 +1,8 @@
+﻿@model GamesTranslationModel
+
+<h1>@Model.name</h1>
+<h2>@Model.description</h2>
+<h2>Developers:</h2><br />
+@foreach(var developer in Model.Games.Developers){
+    <h3>@developer.User.first_name&nbsp;@developer.User.last_name&nbsp;(@developer.User.username) - @developer.role</h3>
+}

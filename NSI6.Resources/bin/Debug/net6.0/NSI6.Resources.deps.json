@@ -1,0 +1,31 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "NSI6.Resources/1.0.0": {
+        "runtime": {
+          "NSI6.Resources.dll": {}
+        },
+        "resources": {
+          "en/NSI6.Resources.resources.dll": {
+            "locale": "en"
+          },
+          "sr/NSI6.Resources.resources.dll": {
+            "locale": "sr"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NSI6.Resources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

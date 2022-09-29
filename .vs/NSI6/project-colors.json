@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b776f83f-db3e-4ab1-8bbd-381d985f5938": {
+      "ProjectGuid": "b776f83f-db3e-4ab1-8bbd-381d985f5938",
+      "DisplayName": "NSI6.Web",
+      "ColorIndex": 0
+    },
+    "0fc3e550-265e-4077-94be-c039c9c7422a": {
+      "ProjectGuid": "0fc3e550-265e-4077-94be-c039c9c7422a",
+      "DisplayName": "NSI6.Models",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "bc41ec98-2381-460f-94a2-fcdf3166812f": {
+      "ProjectGuid": "bc41ec98-2381-460f-94a2-fcdf3166812f",
+      "DisplayName": "NSI6.Data",
+      "ColorIndex": 2
+    },
+    "5bccdc92-9a29-4385-812e-53e2512bf013": {
+      "ProjectGuid": "5bccdc92-9a29-4385-812e-53e2512bf013",
+      "DisplayName": "NSI6.Repository",
+      "ColorIndex": 3
+    },
+    "92c6229b-2765-46b3-977c-e1fd9354118d": {
+      "ProjectGuid": "92c6229b-2765-46b3-977c-e1fd9354118d",
+      "DisplayName": "NSI6.Service",
+      "ColorIndex": 4
+    },
+    "7a8dc9ca-9d74-4aed-aafe-d915fad31e30": {
+      "ProjectGuid": "7a8dc9ca-9d74-4aed-aafe-d915fad31e30",
+      "DisplayName": "NSI6.Resources",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

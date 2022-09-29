@@ -1,0 +1,51 @@
+﻿@model UserModel
+@inject IHtmlLocalizer<Registration> localizer
+
+@using NSI6.Resources;
+
+<form asp-area="User" asp-controller="Auth" asp-action="Registration" method="post">
+    <div class="p-3">
+        <label asp-for="first_name" class="form-label"></label>
+        <input asp-for="first_name" class="form-control" />
+        <span asp-validation-for="first_name" class="text-danger"></span>
+    </div>
+    <div class="p-3">
+        <label asp-for="last_name" class="form-label"></label>
+        <input asp-for="last_name" class="form-control" />
+        <span asp-validation-for="last_name" class="text-danger"></span>
+    </div>
+    <div class="p-3">
+        <label asp-for="username" class="form-label"></label>
+        <input asp-for="username" class="form-control" />
+        <span asp-validation-for="username" class="text-danger"></span>
+    </div>
+    <div class="p-3">
+        <label asp-for="email" class="form-label"></label>
+        <input asp-for="email" class="form-control" />
+        <span asp-validation-for="email" class="text-danger"></span>
+    </div>
+    <div class="p-3">
+        <label asp-for="password" class="form-label"></label>
+        <input asp-for="password" class="form-control" />
+        <span asp-validation-for="password" class="text-danger"></span>
+    </div>
+    <div class="p-3">
+        <label asp-for="ComparePassword" class="form-label"></label>
+        <input asp-for="ComparePassword" class="form-control" />
+        <span asp-validation-for="ComparePassword" class="text-danger"></span>
+    </div>
+
+    <div class="p-3">
+        <label asp-for="country" class="form-label"></label>
+        <select asp-for="country" class="form-control">
+            <option disabled selected>--...--</option>
+            @foreach(var country in Countries.countries){
+                <option value="@country">@country</option>
+            }
+        </select>
+        <span asp-validation-for="country" class="text-danger"></span>
+    </div>
+    <div class="p-3">
+        <button type="submit" class="btn btn-primary form-control">@localizer["SUBMIT-BTN"]</button>
+    </div>
+</form>

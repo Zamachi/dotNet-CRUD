@@ -1,0 +1,26 @@
+﻿@model List<OrderModel>
+
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Order ID:</th>
+      <th scope="col">Order creation date:</th>
+      <th scope="col">User:</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach(var order in Model)
+    {
+        <tr>
+                <td>
+            <a asp-area="Orders" asp-controller="Order" asp-action="getOneOrder" asp-route-id="@order.Id">
+
+                    @order.Id
+            </a>
+                </td>
+            <td>@order.created_at</td>
+            <td>@order.Owner.username</td>
+        </tr>
+    }
+  </tbody>
+</table>
